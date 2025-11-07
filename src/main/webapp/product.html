@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Product Details</title>
+</head>
+<body>
+
+<h2>Enter Product Details</h2>
+
+<form action="ProductServlet" method="post">
+    Product Name: <input type="text" name="name" required><br><br>
+    Quantity: <input type="number" name="quantity" required><br><br>
+    Price per Unit: <input type="number" name="price" step="0.01" required><br><br>
+    <input type="submit" value="Calculate Total">
+</form>
+
+</body>
+</html>
